@@ -1,0 +1,46 @@
+.flex{
+    display: flex;
+    /* background-color: black; */
+}
+.border{
+    margin-top: 24px;
+    box-sizing: border-box;
+}
+.bg-grey{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 6px;
+}
+.m-1{
+    margin: 10px;
+}
+.invert{
+    filter: invert(1);
+}
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px; /* width of the scrollbar */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #333; /* color of the track */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #666; /* color of the handle */
+    border-radius: 5px; /* rounded corners */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #888; /* color of the handle on hover */
+  }
+.BORDER{
+  border: 1px solid white;
+}  
+.info{
+  font-size: 9px;
+}
