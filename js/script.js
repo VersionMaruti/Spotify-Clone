@@ -16,7 +16,7 @@ function secondsToMinutesSeconds(seconds) {
 
 async function getSongs(folder) {
     currfolder=folder
-    let a = await fetch(`/Video%2084/${folder}/`)
+    let a = await fetch(` let a = await fetch(`https://github.com/VersionMaruti/Spotify-Clone/tree/main/songs/${folder}/`)
     let response = await a.text();
     let htmlContent = response
     // console.log(response)
@@ -59,7 +59,7 @@ async function getSongs(folder) {
 }
 let currentSong = new Audio();
 const PlayMusic = (track,pause=false)=>{
-    currentSong.src = `/Video%2084/${currfolder}/` + track;
+    currentSong.src = ` let a = await fetch(`https://github.com/VersionMaruti/Spotify-Clone/tree/main/songs/${currfolder}/` + track;
     if(!pause){
         currentSong.play()
         play.src = "img/pause.svg"
@@ -70,7 +70,7 @@ const PlayMusic = (track,pause=false)=>{
 }
 
 async function displayAlbums(){
-    let a = await fetch(`/Video%2084/songs/`)
+    let a = await fetch(`https://github.com/VersionMaruti/Spotify-Clone/tree/main/songs/`)
     let response = await a.text();
     let div = document.createElement("div")
     div.innerHTML = response
