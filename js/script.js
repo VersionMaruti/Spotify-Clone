@@ -14,7 +14,7 @@ function secondsToMinutesSeconds(seconds) {
     return `${formattedMinutes}:${formattedSeconds}`;
 }
 
-const proxyUrl = 'http://0.0.0.0:8080/';
+const proxyUrl = 'https://0.0.0.0:8080/';
 async function getSongs(folder) {
     currfolder=folder
     let a = await fetch(proxyUrl + `https://github.com/VersionMaruti/Spotify-Clone/tree/main/songs/${folder}/`);
